@@ -1,0 +1,660 @@
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.26
+  origversion: 2.12.26-1build1
+  status: outdated
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/science
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: gri
+  visiblename: gri
+  version: 2.12.23
+  origversion: 2.12.23-bp155.3.12
+  status: outdated
+  summary: A language for scientific illustration
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Scientific/Other
+- repo: alt_p11
+  srcname: gri
+  binnames:
+    - gri
+    - gri-debuginfo
+    - gri-doc
+  visiblename: gri
+  version: 2.12.23
+  origversion: 2.12.23-alt7
+  status: outdated
+  summary: A language for scientific illustration
+  maintainers:
+    - darktemplar@altlinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Development/Tools
+- repo: altsisyphus
+  srcname: gri
+  binnames:
+    - gri
+    - gri-debuginfo
+    - gri-doc
+  visiblename: gri
+  version: 2.12.23
+  origversion: 2.12.23-alt7
+  status: outdated
+  summary: A language for scientific illustration
+  maintainers:
+    - darktemplar@altlinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Development/Tools
+- repo: aur
+  srcname: gri
+  binname: gri
+  visiblename: gri
+  version: 2.12.27
+  origversion: 1:2.12.27-2
+  status: newest
+  summary: A script-based language for scientific graphics programming
+  maintainers:
+    - kbipinkumar@aur
+    - bioarchlinuxbot@aur
+  licenses:
+    - GPL-3.0-or-later
+- repo: aur
+  srcname: gri-git
+  binname: gri-git
+  visiblename: gri-git
+  version: 2.12.23.r20.gd9969d1
+  origversion: 2.12.23.r20.gd9969d1-1
+  status: rolling
+  summary: A script-based language for scientific graphics programming
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - GPL
+- repo: bioarch
+  srcname: gri
+  binname: gri
+  visiblename: gri
+  version: 2.12.27
+  origversion: 1:2.12.27-2
+  status: newest
+  summary: A script-based language for scientific graphics programming
+  licenses:
+    - GPL-3.0-or-later
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.1~deb11u1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.26
+  origversion: 2.12.26-1
+  status: outdated
+  maintainers:
+    - psg@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.1~deb11u1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: gobolinux
+  srcname: Gri
+  visiblename: Gri
+  version: 2.12.7
+  origversion: null
+  status: outdated
+- repo: haikuports_master
+  srcname: sci-visualization/gri
+  visiblename: sci-visualization/gri
+  version: 2.12.23
+  origversion: null
+  status: outdated
+  categories:
+    - sci-visualization
+- repo: kali_rolling
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: macports
+  srcname: science/gri
+  binname: gri
+  visiblename: gri
+  version: 2.12.23
+  origversion: null
+  status: outdated
+  summary: A scientific graphics programming language
+  maintainers:
+    - nomaintainer@macports.org
+  licenses:
+    - GPL-3
+  categories:
+    - science
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: gri
+  visiblename: gri
+  version: 2.12.23
+  origversion: 2.12.23-bp156.4.6
+  status: outdated
+  summary: A language for scientific illustration
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Scientific/Other
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: gri
+  binnames:
+    - gri
+    - gri-debuginfo
+    - gri-debugsource
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27+git20240405.4d93a4e-2.1
+  status: newest
+  summary: A language for scientific illustration
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Scientific/Other
+- repo: opensuse_science_tumbleweed
+  srcname: gri
+  binnames:
+    - gri
+    - gri-debuginfo
+    - gri-debugsource
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27+git20240405.4d93a4e-54.3
+  status: newest
+  summary: A language for scientific illustration
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Scientific/Other
+- repo: opensuse_science_tumbleweed
+  srcname: gri
+  binnames:
+    - gri
+    - gri-debuginfo
+    - gri-debugsource
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27+git20240405.4d93a4e-54.4
+  status: newest
+  summary: A language for scientific illustration
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Scientific/Other
+- repo: opensuse_science_tumbleweed
+  srcname: gri
+  binnames:
+    - gri
+    - gri-debuginfo
+    - gri-debugsource
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27+git20240405.4d93a4e-54.6
+  status: newest
+  summary: A language for scientific illustration
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Scientific/Other
+- repo: pardus_21
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.1~deb11u1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.26
+  origversion: 2.12.26-1
+  status: outdated
+  maintainers:
+    - psg@debian.org
+  categories:
+    - science
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.1~deb11u1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - science
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - science
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: rpmsphere
+  srcname: gri
+  binnames:
+    - gri
+    - gri-debuginfo
+    - gri-debugsource
+  visiblename: gri
+  version: 2.12.23
+  origversion: 2.12.23-66.1
+  status: outdated
+  summary: A language for scientific illustration
+  licenses:
+    - GPLv3+
+  categories:
+    - Productivity/Scientific/Other
+- repo: slackbuilds
+  srcname: academic/gri
+  visiblename: academic/gri
+  version: 2.12.27
+  origversion: null
+  status: newest
+  maintainers:
+    - sborg63@disroot.org
+  categories:
+    - academic
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1build1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.23
+  origversion: 2.12.23-7
+  status: outdated
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/science
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.23
+  origversion: 2.12.23-9build2
+  status: outdated
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/science
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1build1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.1build2
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2build1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2build1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2build2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2build2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/misc
+- repo: wikidata
+  srcname: Q5608533
+  visiblename: Gri graphical language
+  version: 2.12.23
+  origversion: null
+  status: outdated
+  summary: extensible plotting language designed for scientists
