@@ -216,4 +216,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
-{"id":31985882,"author":{"login":"release-drafter[bot]","id":40829082,"node_id":"MDM6Qm90NDA4MjkwODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"MDc6UmVsZWFzZTMxOTg1ODgy","tag_name":"0.6.1","target_commitish":"master","name":"0.6.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2020-11-23T11:03:24Z","updated_at":"2020-11-23T12:07:11Z","published_at":"2020-11-23T12:07:11Z","assets":[],"body":"## Changes\r\n\r\n## Minor Changes\r\n\r\n* Make use of enrich (#31) @ssbarnea\r\n* Avoid results from archived github repos (#29) @ssbarnea\r\n* Added ability to query issues via grib command (#27) @ssbarnea\r\n* Made github labels visible (#26) @ssbarnea\r\n\r\n## Bugfixes\r\n\r\n* OpenDev no longer needs HTTPDigestAuth (#30) @ssbarnea\r\n"}
