@@ -1,67 +1,3 @@
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.27
-  origversion: 2.12.27-1.2
-  status: newest
-  maintainers:
-    - psg@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.27
-  origversion: 2.12.27-1.2
-  status: newest
-  maintainers:
-    - psg@debian.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.27
-  origversion: 2.12.27-1.2
-  status: newest
-  maintainers:
-    - psg@debian.org
-  categories:
-    - science
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.27
-  origversion: 2.12.27-1.1
-  status: newest
-  maintainers:
-    - psg@debian.org
-  categories:
-    - misc
 - repo: alt_p11
   srcname: gri
   binnames:
@@ -436,6 +372,70 @@
     - psg@debian.org
   categories:
     - science
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - science
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
 - repo: rpmsphere
   srcname: gri
   binnames:
@@ -591,6 +591,22 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2build2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: gri
   binnames:
     - gri
