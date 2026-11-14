@@ -1,3 +1,19 @@
+- repo: debian_14
+  subrepo: forky/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
 - repo: alt_p11
   srcname: gri
   binnames:
@@ -101,22 +117,6 @@
     - misc
 - repo: debian_13
   subrepo: trixie/main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.27
-  origversion: 2.12.27-1.2
-  status: newest
-  maintainers:
-    - psg@debian.org
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
   srcname: gri
   binnames:
     - gri
@@ -292,6 +292,21 @@
     - GPL-3.0-or-later
   categories:
     - Productivity/Scientific/Other
+- repo: opensuse_science_tumbleweed
+  srcname: gri
+  binnames:
+    - gri
+    - gri-debuginfo
+    - gri-debugsource
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27+git20240405.4d93a4e-54.14
+  status: newest
+  summary: A language for scientific illustration
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Scientific/Other
 - repo: pardus_21
   subrepo: main
   srcname: gri
@@ -309,7 +324,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gri
   binnames:
     - gri
@@ -325,7 +340,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gri
   binnames:
     - gri
@@ -372,70 +387,6 @@
     - psg@debian.org
   categories:
     - science
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.27
-  origversion: 2.12.27-1.2
-  status: newest
-  maintainers:
-    - psg@debian.org
-  categories:
-    - science
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.27
-  origversion: 2.12.27-1.1
-  status: newest
-  maintainers:
-    - psg@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.27
-  origversion: 2.12.27-1.2
-  status: newest
-  maintainers:
-    - psg@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.27
-  origversion: 2.12.27-1.2
-  status: newest
-  maintainers:
-    - psg@debian.org
-  categories:
-    - misc
 - repo: rpmsphere
   srcname: gri
   binnames:
@@ -628,3 +579,67 @@
   origversion: null
   status: outdated
   summary: extensible plotting language designed for scientists
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - science
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.1
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gri
+  binnames:
+    - gri
+    - gri-el
+    - gri-html-doc
+    - gri-pdf-doc
+  visiblename: gri
+  version: 2.12.27
+  origversion: 2.12.27-1.2
+  status: newest
+  maintainers:
+    - psg@debian.org
+  categories:
+    - misc
