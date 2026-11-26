@@ -1,3 +1,15 @@
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: gri
+  visiblename: gri
+  version: 2.12.23
+  origversion: 2.12.23-bp155.3.12
+  status: outdated
+  summary: A language for scientific illustration
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Scientific/Other
 - repo: alt_p11
   srcname: gri
   binnames:
@@ -223,18 +235,6 @@
     - GPL-3
   categories:
     - science
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: gri
-  visiblename: gri
-  version: 2.12.23
-  origversion: 2.12.23-bp155.3.12
-  status: outdated
-  summary: A language for scientific illustration
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Productivity/Scientific/Other
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: gri
@@ -326,22 +326,6 @@
     - psg@debian.org
   categories:
     - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: gri
-  binnames:
-    - gri
-    - gri-el
-    - gri-html-doc
-    - gri-pdf-doc
-  visiblename: gri
-  version: 2.12.26
-  origversion: 2.12.26-1
-  status: outdated
-  maintainers:
-    - psg@debian.org
-  categories:
-    - science
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: gri
